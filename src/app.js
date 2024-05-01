@@ -7,9 +7,9 @@ const PORT = 3000;
 
 // Sample data
 const users = [
-    { id: '20IT001', name: 'John Doe' },
-    { id: '20IT001', name: 'Jane Smith' },
-    { id: '20IT001', name: 'Alice Johnson' }
+    { id: '20IT001', name: 'Faisal' },
+    { id: '20IT002', name: 'Aarif' },
+    { id: '20IT003', name: 'Mustajab' }
   ];
 
   // Route to get all users
