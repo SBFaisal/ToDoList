@@ -6,7 +6,7 @@ const app = express();
 
  
 // Importing required modules
-const tasksRoutes = require('./tasks')
+const tasksRoutes = require('./api/TaskConroller/tasks')
 
 
 app.use('/tasks', tasksRoutes);
