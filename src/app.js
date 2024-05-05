@@ -24,7 +24,7 @@ app.listen(PORT, () => {
   }); */
  
 // Importing required modules
-const tasksRoutes = require('./api/routes/ToDoList/tasks')
+const tasksRoutes = require('./tasks')
 
 
 app.use('/tasks', tasksRoutes);
