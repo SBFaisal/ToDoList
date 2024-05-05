@@ -1,0 +1,23 @@
+Task Controller
+Name : Tasks
+QA URL : https://todolistqa.onrender.com
+
+
+List of APIs
+
+1. GetAll Tasks
+request body: NA
+url : https://todolistqa.onrender.com/tasks
+response body: type - json
+{
+    'message': 'some value' 
+}
+
+1. GetAll Tasks
+request body: single variable
+url : https://todolistqa.onrender.com/tasks/id
+response body : type - json
+{
+    'message' : 'some value',
+    'Id' : 'id'
+}
