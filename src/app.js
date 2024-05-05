@@ -3,7 +3,7 @@ const express = require('express');
 
 // Creating an Express application instance
 const app = express();
-const PORT = 3000;
+const PORT = process.env.PORT | 3000;
 
  
 // Importing required modules
