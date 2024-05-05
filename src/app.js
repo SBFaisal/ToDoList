@@ -3,9 +3,9 @@ const express = require('express');
 
 // Creating an Express application instance
 const app = express();
-const PORT = 3000;
 
-// Sample data
+
+/* // Sample data
 const users = [
     { id: '20IT001', name: 'Faisal' },
     { id: '20IT002', name: 'Aarif' },
@@ -21,4 +21,13 @@ app.get('/api/users', (req, res) => {
   // Start the server
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
-  });
+  }); */
+ 
+// Importing required modules
+const tasksRoutes = require('./api/routes/ToDoList/tasks')
+
+
+app.use('/tasks', tasksRoutes);
+
+
+module.exports = app;

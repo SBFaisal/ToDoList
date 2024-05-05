@@ -1,10 +1,11 @@
+
 {
   "name": "todolist",
   "version": "1.0.0",
   "description": "A simple ToDo List",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
