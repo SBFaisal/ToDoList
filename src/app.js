@@ -12,7 +12,4 @@ const tasksRoutes = require('./tasks')
 
 app.use('/tasks', tasksRoutes);
 
-
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
+module.exports = app;
